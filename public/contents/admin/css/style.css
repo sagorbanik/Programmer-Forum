@@ -1,0 +1,39 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.table_customize thead{
+  background-color: #000;
+  color: #fff;
+}
+.table_customize tr{
+  transition: all linear 0.5;
+}
+.table_customize tr:hover{
+  background-color: #333 !important;
+  color: #fff;
+}
+table.tableview{
+
+}
+table.tableview tr{
+
+}
+table.tableview  tr  td:first-child{
+  width: 28%;
+  font-weight: 600;
+  text-align: right;
+}
+table.tableview  tr  td:last-child{
+  width: 70%;
+  text-align: left;
+}
+.custom_form_label{
+  text-align: right;
+  font-weight: 500;
+  margin-right: -15px !important;
+
+}
+.invalid-feedback {
+  display: block;
+}
